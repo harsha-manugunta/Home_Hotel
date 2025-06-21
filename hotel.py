@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error
 
 # 📁 Load and Prepare Data
-file_path = r'C:\Users\Harshitha reddy\PycharmProjects\pythonProject\Consumption Dataset - Dataset.csv'
+file_path = r'Consumption Dataset - Dataset.csv'
 df = pd.read_csv(file_path)
 
 # Rename columns to standardized names
